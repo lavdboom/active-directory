@@ -26,6 +26,7 @@
     "phpunit/phpunit": "^6.0 | ^7.0"
   },
   "require": {
+    "magium/configuration-manager": "^1.0.1",
     "league/oauth2-client": "^2.6",
     "microsoft/microsoft-graph": "^1.0",
     "zendframework/zend-psr7bridge": "^0.2"
