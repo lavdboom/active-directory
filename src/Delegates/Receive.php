@@ -1,11 +1,11 @@
 <?php
 
-namespace Magium\ActiveDirectory\Delegates;
+namespace lavdboom\ActiveDirectory\Delegates;
 
 use League\OAuth2\Client\Provider\AbstractProvider;
-use Magium\ActiveDirectory\ActiveDirectory;
-use Magium\ActiveDirectory\Entity;
-use Magium\ActiveDirectory\InvalidRequestException;
+use lavdboom\ActiveDirectory\ActiveDirectory;
+use lavdboom\ActiveDirectory\Entity;
+use lavdboom\ActiveDirectory\InvalidRequestException;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Zend\Http\Header\Location;
