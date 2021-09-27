@@ -1,6 +1,6 @@
 <?php
 
-namespace Magium\ActiveDirectory;
+namespace lavdboom\ActiveDirectory;
 
 class InvalidRequestException extends \Exception
 {
