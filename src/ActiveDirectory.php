@@ -1,12 +1,12 @@
 <?php
 
-namespace Magium\ActiveDirectory;
+namespace lavdboom\ActiveDirectory;
 
 use League\OAuth2\Client\Provider\AbstractProvider;
 use League\OAuth2\Client\Provider\GenericProvider;
-use Magium\ActiveDirectory\Delegates\Authorize;
-use Magium\ActiveDirectory\Delegates\Receive;
-use Magium\Configuration\Config\Repository\ConfigInterface;
+use lavdboom\ActiveDirectory\Delegates\Authorize;
+use lavdboom\ActiveDirectory\Delegates\Receive;
+//use Magium\Configuration\Config\Repository\ConfigInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Zend\Http\PhpEnvironment\Response;
