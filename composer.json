@@ -1,5 +1,5 @@
 {
-  "name": "magium/active-directory",
+  "name": "lavdboom/active-directory",
   "description": "Provides connectivity to Active Directory implementations",
   "minimum-stability": "stable",
   "license": "Apache-2.0",
@@ -11,7 +11,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Magium\\ActiveDirectory\\": "src"
+      "lavdboom\\ActiveDirectory\\": "src"
     },
     "files": [
       "registration.php"
@@ -19,16 +19,14 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Magium\\ActiveDirectory\\Tests\\": "tests"
+      "lavdboom\\ActiveDirectory\\Tests\\": "tests"
     }
   },
   "require-dev": {
-    "phpunit/phpunit": "^6.0 | ^7.0",
-    "magium/magium": "~1.1"
+    "phpunit/phpunit": "^6.0 | ^7.0"
   },
   "require": {
-    "magium/configuration-manager": "^1.0.1",
-    "league/oauth2-client": "^1.4",
+    "league/oauth2-client": "^2.6",
     "microsoft/microsoft-graph": "^1.0",
     "zendframework/zend-psr7bridge": "^0.2"
   }
