@@ -1,9 +1,9 @@
 <?php
 
-namespace Magium\ActiveDirectory\Delegates;
+namespace lavdboom\ActiveDirectory\Delegates;
 
 use League\OAuth2\Client\Provider\AbstractProvider;
-use Magium\ActiveDirectory\ActiveDirectory;
+use lavdboom\ActiveDirectory\ActiveDirectory;
 use Psr\Http\Message\ResponseInterface;
 use Zend\Http\Header\Location;
 use Zend\Http\PhpEnvironment\Response;
