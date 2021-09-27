@@ -1,5 +1,5 @@
 {
-  "name": "magium/active-directory",
+  "name": "lavdboom/active-directory",
   "description": "Provides connectivity to Active Directory implementations",
   "minimum-stability": "stable",
   "license": "Apache-2.0",
@@ -11,7 +11,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Magium\\ActiveDirectory\\": "src"
+      "lavdboom\\ActiveDirectory\\": "src"
     },
     "files": [
       "registration.php"
@@ -19,7 +19,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Magium\\ActiveDirectory\\Tests\\": "tests"
+      "lavdboom\\ActiveDirectory\\Tests\\": "tests"
     }
   },
   "require-dev": {
